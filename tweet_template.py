@@ -31,7 +31,7 @@ driver.find_element_by_xpath('/html/body/div[2]/form/div[3]/fieldset/input').cli
 driver.switch_to.window(driver.window_handles[0])
 
 //Photo View and Share
-driver.get("https://www.melon.com/artist/photo_detail.htm?artistId=2398653&photoId=80093498&orderBy=NEW")
+driver.get("PHOTO PATH")
 //LOOP THIS
 driver.find_element_by_xpath('/html/body/div/div[3]/div/div/div[4]/div[3]/div/div[1]/div[2]/div[3]/ul/li[3]/button/span').click()
 driver.switch_to.window(driver.window_handles[1])
