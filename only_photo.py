@@ -8,7 +8,7 @@ options.add_argument("disable-gpu")
 options.add_argument('lang=ko_KR')
 options.add_argument('log-level=2')
 piccnt = 1
-album_num = your_artist's_picture_cnt
+album_num = your_artist's_photo_cnt
 
 user_id = input("KAKAO ID : ")
 user_pw = input("KAKAO PW : ")
