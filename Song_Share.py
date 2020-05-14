@@ -21,11 +21,11 @@ try:
     driver.switch_to.window(driver.window_handles[0])
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
-    ALBUMCNT = Song Number in that album
+    albumcnt = Song Number in that album
     while True:
         songcnt = 1
         okboy = str(songcnt)
-        for i in range (1, ALBUMCNT+1):
+        for i in range (1, albumcnt+1):
             driver.get('ALBUM URL')
             driver.find_element_by_xpath('/html/body/div[1]/div[3]/div/div/div[3]/form/div/table/tbody/tr[' + okboy + ']/td[3]/div/a').click()
             driver.implicitly_wait(5)
